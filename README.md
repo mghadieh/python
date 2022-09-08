@@ -7,9 +7,9 @@
 
 \f0\fs24 \cf0 # python-excersises\
 This repo is intended for python excercises\
-## Excercise 1: [solution](https://www.pyforschool.com/assignment/file-handling/python-read-text-file-line-by-line.html)\
-Write a function in python to read the content from a text file "poem.txt" line by line and display the same on screen.\
-## Excercise 2: \
+## Excercise 1: [solution](https://www.pyforschool.com/assignment/file-handling/python-read-text-file-line-by-line.html)
+Write a function in python to read the content from a text file "poem.txt" line by line and display the same on screen.
+## Excercise 2: 
 Write a function in python to count the number of lines from a text file "story.txt" which is not starting with an alphabet "T". \
 Example: If the file "story.txt" contains the following lines: A boy is playing there.\
 There is a playground.\
