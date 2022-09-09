@@ -10,7 +10,10 @@ Write a function in python to read the content from a text file "poem.txt" line 
 
 # Copied few paragraphs from wikipedia about poetry
 
-with open('poem.txt', 'r') as file:
-    for line in file:
-        # strip is used to remove the extra spaces inputted by copying the text from htnl
-        print(line.strip())
+def read_content():
+    with open('poem.txt', 'r') as file:
+        for line in file:
+            # strip is used to remove the extra spaces inputted by copying the text from htnl
+            print(line.strip())
+
+read_content()
