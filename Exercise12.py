@@ -1,4 +1,3 @@
-from codecs import getdecoder
 import os
 import random
 # changing the wd to the correct one.
