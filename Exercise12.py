@@ -1,5 +1,6 @@
 import os
 import random
+
 # changing the wd to the correct one.
 os.chdir("/Users/mohamadghadieh/Documents/Mohamad/Projects/Python/Excercises/cleanFileData")
 
