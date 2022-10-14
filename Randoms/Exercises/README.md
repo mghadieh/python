@@ -1,4 +1,7 @@
-This repo is intended for python excercises
+# Overview
+
+Here you will find solution to some python excercises I found online while finishing my Python Specialization.
+
 The list of exercises are from [here](https://www.pyforschool.com/assignment/file-handling.html).
 
 ## Exercise 1:
