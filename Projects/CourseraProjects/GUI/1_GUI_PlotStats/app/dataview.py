@@ -1,38 +1,3 @@
-# import tkinter as tk
-
-
-# def retrieve_input():
-#     inputValue = text_entry.get()
-#     inputValue2 = text_box.get()
-#     print('inputValue: ',  inputValue)
-
-#     print('inputValue2: ',  inputValue2)
-
-
-# # Create the root (main) window
-# root = tk.Tk()
-# root.title('First GUI')
-
-# surah_label = tk.Label(text="Surah Name", width=10, height=2)
-# surah_label.pack()
-
-# # One line text for user input
-# text_entry = tk.Entry(fg="black", bg="white", width=50)
-# text_entry.pack()
-
-# # multi-line textbox for user input
-# text_box = tk.Text()
-# text_box.pack()
-
-# # Button
-# button = tk.Button(text="Click Me", bg='blue', fg='green',
-#                    height=1, width=10, command=lambda: retrieve_input())
-# button.pack()
-
-
-# root.mainloop()
-
-
 from tkinter import *
 from tkinter.ttk import *
 from plotdata import regression_plot
@@ -50,7 +15,7 @@ class Application(Frame):
 
     def show_stats(self):
         xstats, ystats = stats_columns(
-        self.eFname.get(), self.eX.get(), self.eY.get())
+            self.eFname.get(), self.eX.get(), self.eY.get())
         self.txtX.insert(INSERT, xstats)
         self.txtY.insert(INSERT, ystats)
 
